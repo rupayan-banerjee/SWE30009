@@ -48,5 +48,5 @@ def find_values_of_A(B):
 
 # Set B to 2 and find all the hidden A values
 B = 2
-hidden_A_values = find_values_of_A(B)
+A_values = find_values_of_A(B)
 print(f"Values of A that hide faults when B = {B}: {A_values}")
