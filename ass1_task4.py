@@ -40,7 +40,7 @@ def check_for_fault(A, B):
 
 def find_values_of_A(B):
     A_values = []
-    for A in range(-100, 101):  # Checking within a reasonable range of A values
+    for A in range(-100, 100):  # Checking within a reasonable range of A values
         if check_for_fault(A, B):
             A_values.append(A)
     return A_values
